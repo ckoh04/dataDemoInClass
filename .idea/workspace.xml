@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="062c72ee-7b59-48d0-8631-5b4b949ff857" name="Default Changelist" comment="" />
+    <list default="true" id="062c72ee-7b59-48d0-8631-5b4b949ff857" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo.db" beforeDir="false" afterPath="$PROJECT_DIR$/Demo.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/databaseDemo.go" beforeDir="false" afterPath="$PROJECT_DIR$/databaseDemo.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,10 +19,14 @@
     </option>
   </component>
   <component name="GOROOT" path="$USER_HOME$/go/go1.15.2" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1jTnjrbXXcqQeMklpGUsqotInm8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -28,7 +36,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager">
     <configuration name="go build databaseDemo.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -58,22 +72,34 @@
       <screen x="1920" y="0" width="1280" height="1024" />
     </state>
     <state x="2310" y="351" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1044/1920.0.1280.1024@1920.0.1280.1024" timestamp="1603837830704" />
-    <state width="1217" height="243" key="GridCell.Tab.0.bottom" timestamp="1603837795060">
+    <state x="2356" y="293" key="FileChooserDialogImpl" timestamp="1603838323981">
       <screen x="1920" y="0" width="1280" height="1024" />
     </state>
-    <state width="1217" height="243" key="GridCell.Tab.0.bottom/0.0.1920.1044/1920.0.1280.1024@1920.0.1280.1024" timestamp="1603837795060" />
-    <state width="1217" height="243" key="GridCell.Tab.0.center" timestamp="1603837795060">
+    <state x="2356" y="293" key="FileChooserDialogImpl/0.0.1920.1044/1920.0.1280.1024@1920.0.1280.1024" timestamp="1603838323981" />
+    <state x="2419" y="449" key="Github.ShareDialog" timestamp="1603838337188">
       <screen x="1920" y="0" width="1280" height="1024" />
     </state>
-    <state width="1217" height="243" key="GridCell.Tab.0.center/0.0.1920.1044/1920.0.1280.1024@1920.0.1280.1024" timestamp="1603837795060" />
-    <state width="1217" height="243" key="GridCell.Tab.0.left" timestamp="1603837795059">
+    <state x="2419" y="449" key="Github.ShareDialog/0.0.1920.1044/1920.0.1280.1024@1920.0.1280.1024" timestamp="1603838337188" />
+    <state x="2367" y="229" key="Github.UntrackedFilesDialog" timestamp="1603838346523">
       <screen x="1920" y="0" width="1280" height="1024" />
     </state>
-    <state width="1217" height="243" key="GridCell.Tab.0.left/0.0.1920.1044/1920.0.1280.1024@1920.0.1280.1024" timestamp="1603837795059" />
-    <state width="1217" height="243" key="GridCell.Tab.0.right" timestamp="1603837795060">
+    <state x="2367" y="229" key="Github.UntrackedFilesDialog/0.0.1920.1044/1920.0.1280.1024@1920.0.1280.1024" timestamp="1603838346523" />
+    <state width="1217" height="125" key="GridCell.Tab.0.bottom" timestamp="1603843033845">
       <screen x="1920" y="0" width="1280" height="1024" />
     </state>
-    <state width="1217" height="243" key="GridCell.Tab.0.right/0.0.1920.1044/1920.0.1280.1024@1920.0.1280.1024" timestamp="1603837795060" />
+    <state width="1217" height="125" key="GridCell.Tab.0.bottom/0.0.1920.1044/1920.0.1280.1024@1920.0.1280.1024" timestamp="1603843033845" />
+    <state width="1217" height="125" key="GridCell.Tab.0.center" timestamp="1603843033845">
+      <screen x="1920" y="0" width="1280" height="1024" />
+    </state>
+    <state width="1217" height="125" key="GridCell.Tab.0.center/0.0.1920.1044/1920.0.1280.1024@1920.0.1280.1024" timestamp="1603843033845" />
+    <state width="1217" height="125" key="GridCell.Tab.0.left" timestamp="1603843033845">
+      <screen x="1920" y="0" width="1280" height="1024" />
+    </state>
+    <state width="1217" height="125" key="GridCell.Tab.0.left/0.0.1920.1044/1920.0.1280.1024@1920.0.1280.1024" timestamp="1603843033845" />
+    <state width="1217" height="125" key="GridCell.Tab.0.right" timestamp="1603843033845">
+      <screen x="1920" y="0" width="1280" height="1024" />
+    </state>
+    <state width="1217" height="125" key="GridCell.Tab.0.right/0.0.1920.1044/1920.0.1280.1024@1920.0.1280.1024" timestamp="1603843033845" />
     <state width="235" height="500" key="HiddenNamespacesPopup" timestamp="1603837816097">
       <screen x="1920" y="0" width="1280" height="1024" />
     </state>
