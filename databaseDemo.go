@@ -1,11 +1,15 @@
 package main
 
 import (
+	"bufio"
 	"database/sql"
+	"fmt"
 	_ "github.com/mattn/go-sqlite3" //import for side effects
 	"log"
 	"math/rand"
+	"os"
 	"strconv"
+	"strings"
 )
 
 func main() {
@@ -13,7 +17,9 @@ func main() {
 	defer myDatabase.Close()
 	create_tables(myDatabase)
 	//addSampleStudents(myDatabase)
-	addCourses(myDatabase)
+	//addCourses(myDatabase)
+	//registerForClasses(myDatabase)
+	findProbationStudents(myDatabase)
 }
 func OpenDataBase(dbfile string) *sql.DB {
 	database, err := sql.Open("sqlite3", dbfile)
@@ -21,6 +27,52 @@ func OpenDataBase(dbfile string) *sql.DB {
 		log.Fatal(err)
 	}
 	return database
+}
+
+func getMinGPA() float64 {
+	fmt.Print("What is the minimum GPA for good standing:")
+	reader := bufio.NewReader(os.Stdin)
+	value, err := reader.ReadString('\n')
+	if err != nil {
+		log.Fatal("How did we fail to read from standard in!?!?")
+	}
+	value = strings.TrimSpace(value)
+	min_gpa, err := strconv.ParseFloat(value, 32)
+	if err != nil {
+		log.Fatal("oooops you typed that wrong", err)
+	}
+	return min_gpa
+}
+
+func findProbationStudents(database *sql.DB) {
+	var firstName, lastName string
+	var gpa float64
+	minGpa := getMinGPA()
+	selectStatement := "SELECT first_name, last_name, gpa FROM STUDENTS WHERE gpa < ?"
+	resultSet, err := database.Query(selectStatement, minGpa)
+	if err != nil {
+		log.Fatal("Bad Query", err)
+	}
+	defer resultSet.Close()
+	for resultSet.Next() {
+		err = resultSet.Scan(&firstName, &lastName, &gpa)
+		if err != nil {
+			log.Fatal(err)
+		}
+		fmt.Printf("%s %s is on probation with a GPA of %f\n", firstName, lastName, gpa)
+	}
+}
+
+func registerForClasses(database *sql.DB) {
+	insertStatement := "INSERT INTO CLASS_LIST (banner_id, course_prefix, course_number,  registration_date)" +
+		"VALUES(?, 'Comp', 510, DATE('now'))"
+	preppedStatement, err := database.Prepare(insertStatement)
+	if err != nil {
+		log.Fatal("Hey prof you goofed it trying to type live", err)
+	}
+	for i := 1001; i <= 1008; i++ {
+		preppedStatement.Exec(i)
+	}
 }
 
 func addCourses(database *sql.DB) {

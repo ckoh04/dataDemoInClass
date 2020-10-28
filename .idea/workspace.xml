@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="062c72ee-7b59-48d0-8631-5b4b949ff857" name="Default Changelist" comment="">
+    <list default="true" id="062c72ee-7b59-48d0-8631-5b4b949ff857" name="Default Changelist" comment="added tables and data into students and course tables">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Demo.db" beforeDir="false" afterPath="$PROJECT_DIR$/Demo.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/databaseDemo.go" beforeDir="false" afterPath="$PROJECT_DIR$/databaseDemo.go" afterDir="false" />
@@ -64,6 +64,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added tables and data into students and course tables" />
+    <option name="LAST_COMMIT_MESSAGE" value="added tables and data into students and course tables" />
+  </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
   </component>
@@ -72,6 +76,10 @@
       <screen x="1920" y="0" width="1280" height="1024" />
     </state>
     <state x="2310" y="351" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1044/1920.0.1280.1024@1920.0.1280.1024" timestamp="1603837830704" />
+    <state x="2037" y="175" width="1063" height="744" key="DiffContextDialog" timestamp="1603843844746">
+      <screen x="1920" y="0" width="1280" height="1024" />
+    </state>
+    <state x="2037" y="175" width="1063" height="744" key="DiffContextDialog/0.0.1920.1044/1920.0.1280.1024@1920.0.1280.1024" timestamp="1603843844746" />
     <state x="2356" y="293" key="FileChooserDialogImpl" timestamp="1603838323981">
       <screen x="1920" y="0" width="1280" height="1024" />
     </state>
@@ -84,25 +92,29 @@
       <screen x="1920" y="0" width="1280" height="1024" />
     </state>
     <state x="2367" y="229" key="Github.UntrackedFilesDialog/0.0.1920.1044/1920.0.1280.1024@1920.0.1280.1024" timestamp="1603838346523" />
-    <state width="1217" height="125" key="GridCell.Tab.0.bottom" timestamp="1603843033845">
+    <state width="1217" height="264" key="GridCell.Tab.0.bottom" timestamp="1603845677854">
       <screen x="1920" y="0" width="1280" height="1024" />
     </state>
-    <state width="1217" height="125" key="GridCell.Tab.0.bottom/0.0.1920.1044/1920.0.1280.1024@1920.0.1280.1024" timestamp="1603843033845" />
-    <state width="1217" height="125" key="GridCell.Tab.0.center" timestamp="1603843033845">
+    <state width="1217" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1044/1920.0.1280.1024@1920.0.1280.1024" timestamp="1603845677854" />
+    <state width="1217" height="264" key="GridCell.Tab.0.center" timestamp="1603845677854">
       <screen x="1920" y="0" width="1280" height="1024" />
     </state>
-    <state width="1217" height="125" key="GridCell.Tab.0.center/0.0.1920.1044/1920.0.1280.1024@1920.0.1280.1024" timestamp="1603843033845" />
-    <state width="1217" height="125" key="GridCell.Tab.0.left" timestamp="1603843033845">
+    <state width="1217" height="264" key="GridCell.Tab.0.center/0.0.1920.1044/1920.0.1280.1024@1920.0.1280.1024" timestamp="1603845677854" />
+    <state width="1217" height="264" key="GridCell.Tab.0.left" timestamp="1603845677854">
       <screen x="1920" y="0" width="1280" height="1024" />
     </state>
-    <state width="1217" height="125" key="GridCell.Tab.0.left/0.0.1920.1044/1920.0.1280.1024@1920.0.1280.1024" timestamp="1603843033845" />
-    <state width="1217" height="125" key="GridCell.Tab.0.right" timestamp="1603843033845">
+    <state width="1217" height="264" key="GridCell.Tab.0.left/0.0.1920.1044/1920.0.1280.1024@1920.0.1280.1024" timestamp="1603845677854" />
+    <state width="1217" height="264" key="GridCell.Tab.0.right" timestamp="1603845677854">
       <screen x="1920" y="0" width="1280" height="1024" />
     </state>
-    <state width="1217" height="125" key="GridCell.Tab.0.right/0.0.1920.1044/1920.0.1280.1024@1920.0.1280.1024" timestamp="1603843033845" />
+    <state width="1217" height="264" key="GridCell.Tab.0.right/0.0.1920.1044/1920.0.1280.1024@1920.0.1280.1024" timestamp="1603845677854" />
     <state width="235" height="500" key="HiddenNamespacesPopup" timestamp="1603837816097">
       <screen x="1920" y="0" width="1280" height="1024" />
     </state>
     <state width="235" height="500" key="HiddenNamespacesPopup/0.0.1920.1044/1920.0.1280.1024@1920.0.1280.1024" timestamp="1603837816097" />
+    <state x="2168" y="285" key="Vcs.Push.Dialog.v2" timestamp="1603843116106">
+      <screen x="1920" y="0" width="1280" height="1024" />
+    </state>
+    <state x="2168" y="285" key="Vcs.Push.Dialog.v2/0.0.1920.1044/1920.0.1280.1024@1920.0.1280.1024" timestamp="1603843116106" />
   </component>
 </project>
